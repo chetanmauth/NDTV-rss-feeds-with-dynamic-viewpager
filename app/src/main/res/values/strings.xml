@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">News Feeds</string>
+    <string name="title_activity_dashboard">Dashboard</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="home_second">Home Second</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--  NDTV  URLS-->
+    <string name="topstories">https://feeds.feedburner.com/ndtvnews-top-stories</string>
+    <string name="latest">https://feeds.feedburner.com/ndtvnews-latest</string>
+    <string name="trending">https://feeds.feedburner.com/ndtvnews-trending-news</string>
+    <string name="india">https://feeds.feedburner.com/ndtvnews-india-news</string>
+    <string name="world">https://feeds.feedburner.com/ndtvnews-world-news</string>
+    <string name="business">https://feeds.feedburner.com/ndtvprofit-latest</string>
+    <string name="movies">https://feeds.feedburner.com/ndtvmovies-latest</string>
+    <string name="sports">https://feeds.feedburner.com/ndtvsports-latest</string>
+    <string name="cities">https://feeds.feedburner.com/ndtvnews-cities-news</string>
+    <string name="cricket">https://feeds.feedburner.com/ndtvsports-cricket</string>
+    <string name="tech">https://feeds.feedburner.com/gadgets360-latest</string>
+    <string name="auto">https://feeds.feedburner.com/carandbike-latest</string>
+    <string name="south">https://feeds.feedburner.com/ndtvnews-south</string>
+    <string name="abroad">https://feeds.feedburner.com/ndtvnews-indians-abroad</string>
+    <string name="health">https://feeds.feedburner.com/ndtvnews-indians-abroad</string>
+    <string name="people">https://feeds.feedburner.com/ndtvnews-people</string>
+    <string name="hindi">https://feeds.feedburner.com/ndtvkhabar-latest</string>
+
+    <!--  NDTV  URLS-->
+
+
+</resources>

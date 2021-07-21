@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NDTVpages.NDTV">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.tabs.TabLayout
+            android:layout_width="match_parent"
+            android:id="@+id/ndtvtab"
+            android:layout_height="35dp"
+            app:tabGravity="center"
+            app:tabTextAppearance="@style/MyCustomTextAppearance"
+            app:tabSelectedTextColor="@color/colorAccent"
+            app:tabTextColor="@color/dark"
+            android:background="@color/colorbg2"
+            app:tabRippleColor="@color/cardview_shadow_start_color"
+            app:tabMode="scrollable">
+
+
+        </com.google.android.material.tabs.TabLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="35dp"
+        android:background="@color/cardview_shadow_start_color">
+
+    </View>
+
+    <androidx.viewpager.widget.ViewPager
+        android:layout_width="match_parent"
+        android:id="@+id/ndtvpager"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:layout_height="match_parent"
+        android:layout_marginTop="35dp">
+
+    </androidx.viewpager.widget.ViewPager>
+
+</FrameLayout>
